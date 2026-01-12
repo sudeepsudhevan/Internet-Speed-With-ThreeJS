@@ -2,6 +2,14 @@
 
 This directory contains the production build of the Internet Speed Calculator.
 
+## How to Build
+
+To regenerate this distribution folder from the source code, run the following command in the project root:
+
+```bash
+npm run build
+```
+
 ## How to Run locally
 
 Due to browser security restrictions (CORS and ES Modules), you cannot simply open `index.html` in your browser. You must serve it via a static file server.
