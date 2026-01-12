@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="./favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Internet Speed Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&display=swap"
+    rel="stylesheet">
+  <script type="module" crossorigin src="./assets/index-FkdofzTo.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DLclni0n.css">
+</head>
+
+<body>
+  <div id="canvas-container"></div>
+
+  <div id="ui-layer">
+    <header>
+      <h1>CYBER SPEED</h1>
+      <p>NETWORK ANALYZER</p>
+    </header>
+
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <span class="label">PING</span>
+        <div class="value-group">
+          <span id="ping-val">--</span>
+          <span class="unit">ms</span>
+        </div>
+      </div>
+      <div class="metric-card main-metric">
+        <span class="label">DOWNLOAD</span>
+        <div class="value-group">
+          <span id="download-val">--</span>
+          <span class="unit">Mbps</span>
+        </div>
+      </div>
+      <div class="metric-card">
+        <span class="label">UPLOAD</span>
+        <div class="value-group">
+          <span id="upload-val">--</span>
+          <span class="unit">Mbps</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="start-btn">INITIATE TEST</button>
+      <div id="status-text">READY</div>
+    </div>
+  </div>
+
+</body>
+
+</html>
